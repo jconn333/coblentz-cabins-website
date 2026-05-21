@@ -2,77 +2,77 @@ const BOOK_URL = "https://book.amishcountrylodging.com/all-listings?category=160
 const BASE = "https://book.amishcountrylodging.com/listings/";
 
 const heroImages = {
-  main: "https://www.amishcountrylodging.com/wp-content/uploads/2019/08/red-fern-exterior-slide.jpg",
-  secondary: "https://www.amishcountrylodging.com/wp-content/uploads/2019/08/red-fern-overview.jpg"
+  main: "assets/images/optimized/red-fern-exterior-slide.webp",
+  secondary: "assets/images/optimized/red-fern-overview.webp"
 };
 
 const pageHeroImages = {
-  "gallery.html": "https://www.amishcountrylodging.com/wp-content/uploads/2019/08/blue-jays-overview.jpg",
-  "location.html": "https://www.amishcountrylodging.com/wp-content/uploads/2020/03/coblentz-country-cabins-google-map-scaled.jpg",
-  "attractions.html": "https://www.amishcountrylodging.com/wp-content/uploads/2019/08/horse-and-green-buggy.jpg",
-  "collection.html": "https://www.amishcountrylodging.com/wp-content/uploads/2019/08/red-fern-exterior-slide.jpg",
-  "faq.html": "https://www.amishcountrylodging.com/wp-content/uploads/2019/08/dogwood-interior-overview.jpg",
-  "contact.html": "https://www.amishcountrylodging.com/wp-content/uploads/2020/03/briarwood-cabin-overview-1296x916.jpg"
+  "gallery.html": "assets/images/optimized/blue-jays-overview.webp",
+  "location.html": "assets/images/optimized/coblentz-country-cabins-google-map.webp",
+  "attractions.html": "assets/images/optimized/horse-and-green-buggy.webp",
+  "collection.html": "assets/images/optimized/red-fern-exterior-slide.webp",
+  "faq.html": "assets/images/optimized/dogwood-interior-overview.webp",
+  "contact.html": "assets/images/optimized/briarwood-cabin-overview.webp"
 };
 
 const galleryItems = [
   {
-    image: "https://www.amishcountrylodging.com/wp-content/uploads/2019/08/red-fern-exterior-slide.jpg",
+    image: "assets/images/optimized/red-fern-exterior-slide.webp",
     title: "Red Fern Log Cabin",
     copy: "Our largest cabin sleeps up to 10 on a quiet hillside with pond views and a private porch."
   },
   {
-    image: "https://www.amishcountrylodging.com/wp-content/uploads/2019/07/hummingbird-haven-overview.jpg",
+    image: "assets/images/optimized/hummingbird-haven-overview.webp",
     title: "Hummingbird Haven",
     copy: "A spacious log cabin for up to 8 guests with a stone fireplace and jetted tub."
   },
   {
-    image: "https://www.amishcountrylodging.com/wp-content/uploads/2019/08/blue-jays-overview.jpg",
+    image: "assets/images/optimized/blue-jays-overview.webp",
     title: "Blue Jay's Nest",
     copy: "Authentic log construction with warm interiors and everything your group needs."
   },
   {
-    image: "https://www.amishcountrylodging.com/wp-content/uploads/2019/08/water-lily-living-overview.jpg",
+    image: "assets/images/optimized/water-lily-living-overview.webp",
     title: "Water Lily Cabin",
     copy: "Overlooking the pond, this six-guest cabin brings the outdoors right to your living room."
   },
   {
-    image: "https://www.amishcountrylodging.com/wp-content/uploads/2019/07/sugar-maple-overview-2.jpg",
+    image: "assets/images/optimized/sugar-maple-overview.webp",
     title: "Sugar Maple Cabin",
     copy: "A cozy retreat for four with a full kitchen, hot tub, and private porch."
   },
   {
-    image: "https://www.amishcountrylodging.com/wp-content/uploads/2019/08/dogwood-interior-overview.jpg",
+    image: "assets/images/optimized/dogwood-interior-overview.webp",
     title: "Dogwood Cabin",
     copy: "A romantic one-king cabin for two — warm, quiet, and steps from downtown Berlin."
   },
   {
-    image: "https://www.amishcountrylodging.com/wp-content/uploads/2020/03/briarwood-cabin-overview-1296x916.jpg",
+    image: "assets/images/optimized/briarwood-cabin-overview.webp",
     title: "Briarwood Cabin",
     copy: "A pet-friendly cabin for couples with a king bed, fireplace, and private porch."
   },
   {
-    image: "https://www.amishcountrylodging.com/wp-content/uploads/2019/07/rabbits-nest-overview.jpg",
+    image: "assets/images/optimized/rabbits-nest-overview.webp",
     title: "Rabbit's Nest Lodge Suite",
     copy: "A cozy pet-friendly lodge suite with a king bed and fireplace."
   },
   {
-    image: "https://www.amishcountrylodging.com/wp-content/uploads/2019/08/foxs-den-bed-overview.jpg",
+    image: "assets/images/optimized/foxs-den-bed-overview.webp",
     title: "Fox's Den Lodge Suite",
     copy: "Rustic comfort for two with warm wood finishes and a stone fireplace."
   },
   {
-    image: "https://www.amishcountrylodging.com/wp-content/uploads/2019/08/owls-perch-overview.jpg",
+    image: "assets/images/optimized/owls-perch-overview.webp",
     title: "Owl's Perch Lodge Suite",
     copy: "A lodge suite for four with a jetted tub, fireplace, and full kitchen."
   },
   {
-    image: "https://www.amishcountrylodging.com/wp-content/uploads/2019/08/hawks-nest-interior-overview.jpg",
+    image: "assets/images/optimized/hawks-nest-interior-overview.webp",
     title: "Hawk's Nest Lodge Suite",
     copy: "Comfortable lodge living for four with a jetted tub and cozy fireplace."
   },
   {
-    image: "https://www.amishcountrylodging.com/wp-content/uploads/2019/08/red-fern-overview.jpg",
+    image: "assets/images/optimized/red-fern-overview.webp",
     title: "Hillside Pond Views",
     copy: "Wake up to serene pond views and the sound of horses and buggies on the road below."
   }
@@ -152,7 +152,7 @@ const units = [
     highlight: "Our biggest cabin sleeps 10 — perfect for large families or group getaways, with a fireplace, full kitchen, and hillside pond views.",
     amenities: ["Sleeps 10", "Full kitchen", "Fireplace", "Private porch", "Pond views", "Smart TV"],
     bookingUrl: BASE + "214124",
-    image: "https://www.amishcountrylodging.com/wp-content/uploads/2019/08/red-fern-overview.jpg"
+    image: "assets/images/optimized/red-fern-overview.webp"
   },
   {
     name: "Hummingbird Haven Cabin",
@@ -162,7 +162,7 @@ const units = [
     highlight: "A spacious log cabin for eight with a stone fireplace, two-person jetted tub, and full kitchen.",
     amenities: ["Sleeps 8", "Jetted tub", "Full kitchen", "Fireplace", "Private porch", "Smart TV"],
     bookingUrl: BASE + "214128",
-    image: "https://www.amishcountrylodging.com/wp-content/uploads/2019/07/hummingbird-haven-overview.jpg"
+    image: "assets/images/optimized/hummingbird-haven-overview.webp"
   },
   {
     name: "Blue Jay's Nest Log Cabin",
@@ -172,7 +172,7 @@ const units = [
     highlight: "A generously sized log cabin for eight with a jetted tub, full kitchen, and warm log interiors.",
     amenities: ["Sleeps 8", "Jetted tub", "Full kitchen", "Fireplace", "Private porch", "Smart TV"],
     bookingUrl: BASE + "214127",
-    image: "https://www.amishcountrylodging.com/wp-content/uploads/2019/08/blue-jays-overview.jpg"
+    image: "assets/images/optimized/blue-jays-overview.webp"
   },
   {
     name: "Water Lily Log Cabin",
@@ -182,7 +182,7 @@ const units = [
     highlight: "Set hillside above the pond, this six-guest cabin features a hot tub, fireplace, and stunning views.",
     amenities: ["Sleeps 6", "Outdoor hot tub", "Full kitchen", "Fireplace", "Pond views", "Smart TV"],
     bookingUrl: BASE + "214126",
-    image: "https://www.amishcountrylodging.com/wp-content/uploads/2019/08/water-lily-living-overview.jpg"
+    image: "assets/images/optimized/water-lily-living-overview.webp"
   },
   {
     name: "Sugar Maple Cabin",
@@ -192,7 +192,7 @@ const units = [
     highlight: "A comfortable cabin for four with a hot tub, full kitchen, fireplace, and private porch.",
     amenities: ["Sleeps 4", "Outdoor hot tub", "Full kitchen", "Fireplace", "Private porch", "Smart TV"],
     bookingUrl: BASE + "214131",
-    image: "https://www.amishcountrylodging.com/wp-content/uploads/2019/07/sugar-maple-overview-2.jpg"
+    image: "assets/images/optimized/sugar-maple-overview.webp"
   },
   {
     name: "Dogwood Cabin",
@@ -202,7 +202,7 @@ const units = [
     highlight: "A romantic one-king cabin for two with a fireplace, full kitchen, and private porch steps from downtown Berlin.",
     amenities: ["King bed", "Full kitchen", "Fireplace", "Private porch", "Smart TV", "Charcoal grill"],
     bookingUrl: BASE + "214125",
-    image: "https://www.amishcountrylodging.com/wp-content/uploads/2019/08/dogwood-interior-overview.jpg"
+    image: "assets/images/optimized/dogwood-interior-overview.webp"
   },
   {
     name: "Briarwood Cabin",
@@ -212,7 +212,7 @@ const units = [
     highlight: "A cozy pet-friendly cabin for two with a king bed, fireplace, full kitchen, and private porch.",
     amenities: ["King bed", "Pet friendly", "Full kitchen", "Fireplace", "Private porch", "Smart TV"],
     bookingUrl: BASE + "214142",
-    image: "https://www.amishcountrylodging.com/wp-content/uploads/2020/03/briarwood-cabin-overview-1296x916.jpg"
+    image: "assets/images/optimized/briarwood-cabin-overview.webp"
   },
   {
     name: "Rabbit's Nest Lodge Suite",
@@ -222,7 +222,7 @@ const units = [
     highlight: "A cozy pet-friendly lodge suite with a king bed, fireplace, and full kitchen.",
     amenities: ["King bed", "Pet friendly", "Full kitchen", "Fireplace", "Smart TV", "Charcoal grill"],
     bookingUrl: BASE + "214167",
-    image: "https://www.amishcountrylodging.com/wp-content/uploads/2019/07/rabbits-nest-overview.jpg"
+    image: "assets/images/optimized/rabbits-nest-overview.webp"
   },
   {
     name: "Fox's Den Lodge Suite",
@@ -232,7 +232,7 @@ const units = [
     highlight: "A warm pet-friendly suite for two with a king bed, fireplace, and full kitchen.",
     amenities: ["King bed", "Pet friendly", "Full kitchen", "Fireplace", "Smart TV", "Charcoal grill"],
     bookingUrl: BASE + "214163",
-    image: "https://www.amishcountrylodging.com/wp-content/uploads/2019/08/foxs-den-bed-overview.jpg"
+    image: "assets/images/optimized/foxs-den-bed-overview.webp"
   },
   {
     name: "Owl's Perch Lodge Suite",
@@ -242,7 +242,7 @@ const units = [
     highlight: "A comfortable lodge suite for four with a jetted tub, fireplace, and full kitchen.",
     amenities: ["Sleeps 4", "Jetted tub", "Full kitchen", "Fireplace", "Smart TV", "Charcoal grill"],
     bookingUrl: BASE + "214129",
-    image: "https://www.amishcountrylodging.com/wp-content/uploads/2019/08/owls-perch-overview.jpg"
+    image: "assets/images/optimized/owls-perch-overview.webp"
   },
   {
     name: "Hawk's Nest Lodge Suite",
@@ -252,6 +252,6 @@ const units = [
     highlight: "A cozy lodge suite for four with a jetted tub, stone fireplace, and full kitchen.",
     amenities: ["Sleeps 4", "Jetted tub", "Full kitchen", "Fireplace", "Smart TV", "Charcoal grill"],
     bookingUrl: BASE + "214130",
-    image: "https://www.amishcountrylodging.com/wp-content/uploads/2019/08/hawks-nest-interior-overview.jpg"
+    image: "assets/images/optimized/hawks-nest-interior-overview.webp"
   }
 ];

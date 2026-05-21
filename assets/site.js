@@ -69,7 +69,7 @@ function renderUnits(containerId, limit) {
   container.innerHTML = list.map(unit => `
     <article class="unit-card reveal">
       <div class="unit-card__img-wrap">
-        <img src="${unit.image}" alt="${unit.name} at Coblentz Country Cabins" loading="lazy">
+        <img src="${unit.image}" alt="${unit.name} at Coblentz Country Cabins" loading="lazy" decoding="async">
       </div>
       <div class="unit-card__body">
         <div class="unit-card__type">${unit.type}</div>
@@ -106,7 +106,7 @@ function renderGallery(containerId) {
 
   container.innerHTML = galleryItems.map(item => `
     <div class="gallery-item reveal">
-      <img src="${item.image}" alt="${item.title}" loading="lazy">
+      <img src="${item.image}" alt="${item.title}" loading="lazy" decoding="async">
       <div class="gallery-item__overlay">
         <h3>${item.title}</h3>
       </div>
