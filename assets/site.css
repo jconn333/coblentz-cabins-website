@@ -741,13 +741,8 @@ h3 { font-size: clamp(1.25rem, 2vw, 1.8rem); margin-bottom: 0.6rem; }
 .map-band {
   width: 100%;
   border-top: 1px solid var(--line);
-}
-
-.map-band iframe {
-  width: 100%;
-  height: 400px;
-  border: 0;
-  display: block;
+  padding: clamp(3rem, 6vw, 5rem) 1.5rem;
+  background: var(--surface-strong);
 }
 
 /* ─── QUOTE BAND ─── */
@@ -806,11 +801,45 @@ h3 { font-size: clamp(1.25rem, 2vw, 1.8rem); margin-bottom: 0.6rem; }
 
 .location-details li strong { color: var(--ink); }
 
-.location-map iframe {
-  width: 100%;
-  height: 100%;
+.location-map {
+  display: flex;
+  align-items: stretch;
   min-height: 450px;
-  border: 0;
+  background: var(--surface-strong);
+}
+
+.map-card {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: clamp(2rem, 5vw, 4rem);
+  background:
+    linear-gradient(135deg, rgba(48,75,52,0.08), rgba(196,151,99,0.14)),
+    var(--surface-strong);
+}
+
+.map-card--wide {
+  max-width: 760px;
+  min-height: auto;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  border-radius: var(--radius-sm);
+}
+
+.map-card h3 {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  margin: 0;
+}
+
+.map-card p {
+  color: var(--muted);
+  margin: 0;
+  max-width: 44ch;
 }
 
 .cta-row {
@@ -1114,7 +1143,7 @@ h3 { font-size: clamp(1.25rem, 2vw, 1.8rem); margin-bottom: 0.6rem; }
   .attraction-grid { grid-template-columns: repeat(2, 1fr); }
   .property-grid { grid-template-columns: repeat(2, 1fr); }
   .location-split { grid-template-columns: 1fr; }
-  .location-map iframe { min-height: 350px; }
+  .location-map { min-height: 350px; }
   .contact-grid { grid-template-columns: 1fr; gap: 2rem; padding: 3rem 0; }
 }
 
