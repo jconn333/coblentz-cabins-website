@@ -1,5 +1,5 @@
-const BOOK_URL = "https://book.amishcountrylodging.com/all-listings?category=16008";
-const BASE = "https://book.amishcountrylodging.com/listings/";
+const BOOK_URL = "https://reserve.amishcountrylodging.com/all-listings?category=16008";
+const BASE = "https://reserve.amishcountrylodging.com/listings/";
 
 const heroImages = {
   main: "assets/images/optimized/red-fern-exterior-slide.webp",
